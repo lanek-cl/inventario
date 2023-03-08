@@ -20,3 +20,4 @@ Comp-Res-100K
 Comp-PCB-Rigid
 Comp-PCB-Flex
 Comp-Cab-TAG-CONNECT
+Insu-Res-EstandarBlanco0.5kg

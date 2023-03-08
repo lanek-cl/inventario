@@ -1,3 +1,4 @@
 Insu-Alc-5Lt
 Comp-Mic-32Gb
 Comp-Res-100K
+Comp-PCB-Flex
