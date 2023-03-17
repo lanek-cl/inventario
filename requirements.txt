@@ -1,0 +1,5 @@
+streamlit
+pillow
+gspread
+oauth2client
+black
