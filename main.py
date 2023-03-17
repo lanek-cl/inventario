@@ -101,7 +101,7 @@ def main():
     im = Image.open("assets/logos/favicon.png")
 
     st.set_page_config(
-        page_title="Agrosuper",
+        page_title="Inventario",
         page_icon=im,
         layout="wide",
         initial_sidebar_state="expanded",
