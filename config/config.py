@@ -2,18 +2,25 @@ import os
 
 
 class Config:
-
     familia_insumos = {
-        "Resina UV": "Estandar Blanco 0.5kg, Estandar Negro 0.5kg, Estandar Azul 0.5kg, Estandar Transparente 0.5kg, ABS Negro 0.5kg, ABS Gris 1kg".split(
-            ","
-        ),
-        "Filamento PLA": "Blanco 1kg, Negro 1kg".strip().split(","),
-        "Silicona": "  2comp. Transparente 1kg, Adhesiva Transparente 110ml, Adhesiva Negro 110ml, Caliente 10 barras".strip().split(
-            ","
-        ),
-        "Tinte Silicona": "Negro 22gr".strip().split(","),
-        "Alcohol Isopropílico": "5Lt".strip().split(","),
-        "Guantes Nitrilo": "100-200U".strip().split(","),
+        "Resina UV": [
+            "Estandar Blanco 0.5kg",
+            "Estandar Negro 0.5kg",
+            "Estandar Azul 0.5kg",
+            "Estandar Transparente 0.5kg",
+            "ABS Negro 0.5kg",
+            "ABS Gris 1kg",
+        ],
+        "Filamento PLA": ["Blanco 1kg", "Negro 1kg"],
+        "Silicona": [
+            "2comp. Transparente 1kg",
+            "Adhesiva Transparente 110ml",
+            "Adhesiva Negro 110ml",
+            "Caliente 10 barras",
+        ],
+        "Tinte Silicona": ["Negro 22gr"],
+        "Alcohol Isopropílico": ["5Lt"],
+        "Guantes Nitrilo": ["100-200U"],
         "Toalla de Papel": ["500mts"],
         "Flux": ["Líquido 1 jeringa"],
         "Estaño": ["Carrete 250g", "Tarrito 50g"],
